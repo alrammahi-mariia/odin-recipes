@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    }
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: dark grey;
+    background-color: peachpuff;
+}
+
+.card {
+    width: 600px;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.image {
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section.red{
+    background-color: rgba(236, 181, 190, 0.366);
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+.section.red > h4 {
+    margin-left: 20px;
+}
+
+h1,h3,h4 {
+    font-weight: 800;
+    color:rgb(100, 22, 22);
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+.italics{
+    font-style: italic;
+    font-weight: 300;
+}
+
+table {
+    height: 300px;
+    width: 400;
+}
+
+th, td {
+    border-bottom: 1px solid gray;
+}
+
+th{
+    color: rgb(100, 22, 22);
+    font-weight: 600;
+}
